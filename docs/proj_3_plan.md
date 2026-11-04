@@ -6,7 +6,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 * Team Name: Team 2  
 * Team Members: Adam Sarraj, Danielle Major, Mustafa Alrubaye  
-* Course /Section: CS 2430 / 001  
+* Course / Section: CS 2430 / 001  
 * Project Name: Programming Project 3, Optimal selection \- Fall 2026
 
 * Start Date: October 25th 2026  

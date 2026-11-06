@@ -15,7 +15,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 ## 2\) Team & Roles (assigned for this project)
 
-| Team Member | Role  | Primary Responsibilities  | Availability / Notes |
+| Team Member | Role  | Primary Responsibilities  | General Availability / Notes |
 | :---- | :---- | :---- | :---- |
 | Danielle Major | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. | Monday - Thursday after 3pm, Friday/Saturday/Sunday most of the day|
 | Adam Sarraj  | Verification Lead | Creates test plan; edge cases; validates outputs; documents verification evidence. | Monday \- Thursday: After 2 pm <br> Friday \- Saturday: Before 6pm |
@@ -26,7 +26,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 * Platform: GitHub   
 * Repository URL: https\://github.com/Adam-Kharon/CS\_2430\_Programming\_Project\_3.git  
 * Instructor invited as viewer by checkpoint?: Yes — invited date: November 3rd 2026  
-* Repo Structure Requirement (summary): Include /docs with pseudocode, UML/diagram, design notes; keep updated at checkpoint.
+* Repo Structure Summary: Included in README.md.
 
 ## 4\) Milestones (Timeline)
 
@@ -42,7 +42,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | ----- | :---: | :---: | ----- |
-| 1 | Create repository \+ baseline README/run steps |  |  |  |  |  |
+| 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e |  |
 | 2 | Draft pseudocode for core algorithm in /docs |  |  |  |  |  |
 | 3 | Draft UML/module diagram in /docs |  |  |  |  |  |
 | 4 | Implement core data structures and parsing |  |  |  |  |  |

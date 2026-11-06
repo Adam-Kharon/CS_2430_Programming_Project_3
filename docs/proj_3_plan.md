@@ -17,7 +17,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 | Team Member | Role  | Primary Responsibilities  | Availability / Notes |
 | :---- | :---- | :---- | :---- |
-|  | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. |  |
+|Danielle Major  | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. | Monday - Thursday after 3pm, Friday/Saturday/Sunday most of the day|
 | Adam Sarraj  | Verification Lead | Creates test plan; edge cases; validates outputs; documents verification evidence. | Monday \- Thursday: After 2 pm <br> Friday \- Saturday: Before 6pm |
 |  | Communications Lead | Assembles report/video; ensures run instructions; tracks deliverables; merges documentation. |  |
 

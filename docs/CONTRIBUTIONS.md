@@ -4,9 +4,9 @@
 
 | Team Member | Role  | Primary Responsibilities  | Availability / Notes |
 | :---- | :---- | :---- | :---- |
-|  | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. |  |
-| Adam Sarraj  | Verification Lead | Creates test plan; edge cases; validates outputs; documents verification evidence. | Monday \- Thursday: after 2 pm Friday: Before 7pm |
-|  | Communications Lead | Assembles report/video; ensures run instructions; tracks deliverables; merges documentation. |  |
+| Danielle Major | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. | Monday - Thursday after 3pm, Friday/Saturday/Sunday most of the day|
+| Adam Sarraj  | Verification Lead | Creates test plan; edge cases; validates outputs; documents verification evidence. | Monday \- Thursday: After 2 pm <br> Friday \- Saturday: Before 6pm |
+| Mustafa Alrubaye | Communications Lead | Assembles report/video; ensures run instructions; tracks deliverables; merges documentation. |  |
 
 ## 2\) Contributions Pre Change Request
 

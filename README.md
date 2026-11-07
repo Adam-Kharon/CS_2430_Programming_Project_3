@@ -1,5 +1,5 @@
 # CS_2430_Programming_Project_3
-This project INSERT_PROGRAM/PROJECT_DESCRIPTION_HERE.
+This project evaluates strategies for a value-to-weight optimization problem by comparing Highest Rating First, Lightest First, Best Rating-to-Weight Ratio First strategies along side an exhaustive brute force method.
 
 
 ## Prerequisites
@@ -25,18 +25,18 @@ This project INSERT_PROGRAM/PROJECT_DESCRIPTION_HERE.
 
 4. **Navigate to the project3 folder**
 
-5. **Run INSERT_PROGRAM_NAME_HERE.java and view the console**
+5. **Run Main.java and view the console**
 
 # Project Structure:
 
-### src/INSERT_PROGRAM_NAME_HERE.java
+### src/Main.java
   - INSERT_SHORT_PROGRAM_DESCRIPTION_HERE
 
-### test/INSERT_VERIFICATRION_TEST_PROGRAM_NAME_HERE.java
-  - JUnit tests for INSERT_SHORT_TEST_PROGRAM_DESCRIPTION_HERE
+### test/MainTest.java
+  - JUnit tests for the Main class.
 
 ### docs/UML.md
-  - Shows the principal classes and their relationships
+  - Displays the principle and testing classes along with their relationship.
 
 ### docs/proj_3_plan.md
   - Records roles, tasks, deadlines, and progress.

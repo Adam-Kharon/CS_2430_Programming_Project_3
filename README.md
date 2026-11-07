@@ -44,7 +44,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 ### docs/proj_3_scope.md
   - Documents project requirements
 
-### docs/Verification & Test Results.md
+### docs/verification_plan.md
   - Contains verification plan and results of the tests
 
 ### docs/CONTRIBUTIONS.md

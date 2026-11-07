@@ -12,19 +12,18 @@
 
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
-| 1 | Create repository \+ baseline README/run steps |  |  |  |  |  |
-| 2 | Draft pseudocode for core algorithm in /docs |  |  |  |  |  |
-| 3 | Draft UML/module diagram in /docs |  |  |  |  |  |
-| 4 | Implement core data structures and parsing |  |  |  |  |  |
-| 5 | Define verification plan (tests \+ edge cases) |  |  |  |  |  |
+| 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
+| 2 | Draft scope document in /docs | Danielle | November 8th | IP |  |  |
+| 3 | Draft UML diagram in /docs |  | November 8th | IP |  |  |
+| 4 | Implement core data structures and parsing | Danielle | November 8th |  |  |  |
+| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th | NS |  |  |
 
 ## 3\) Contributions Post Change Request
 
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
-| 6 | Implement edge-case tests \+ expected outputs |  |  |  |  |  |
-| 7 | Design notes: assumptions, invariants, tradeoffs |  |  |  |  |  |
-| 8 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th  |  | Checkpoint Submission |  |
-| 9 | Report draft (problem/design/verification/results) |  |  |  |  |  |
-| 10 | Final polish: run instructions \+ release tag | Team | November 15th |  | Final Submission | Before Submission |
+| 6 | Implement edge-case tests \+ expected outputs | Adam |  | NS |  |  |
+| 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th  |  | Checkpoint Submission |  |
+| 8 | Report draft (problem/design/verification/results) | Mustafa |  |  |  |  |
+| 9 | Final polish: run instructions \+ release tag | Team | November 15th | NS | Final Submission | Before Submission |
 

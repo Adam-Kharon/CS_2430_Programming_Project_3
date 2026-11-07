@@ -8,6 +8,6 @@ package project3;
  * @Project_Name Programming Project 3, Optimal selection - Fall 2026
  * @author Adam-Sarraj
  */
-public class OptimalSelectionTest {
+public class MainTest {
 	// TODO
 }

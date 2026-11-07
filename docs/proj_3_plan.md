@@ -32,8 +32,8 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 | Milestone | Target Date | Owner | Definition of Done | Status (NS/IP/D) | Evidence Link / Pointer |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Skeleton running |  | Danielle | sample I/O runs. |  |   |
-| Core implementation complete |  | Danielle | All required features implemented; compiles/runs end-to-end. |  |  |
+| Skeleton running |  | Danielle | sample I/O runs. | IP |   |
+| Core implementation complete |  | Danielle | All required features implemented; compiles/runs end-to-end. | IP |  |
 | Verification complete | November 13th | Adam | Test suite covers edge cases; expected vs actual documented. | NS |  |
 | Report/video draft complete |  | Mustafa | Draft report sections complete; video outline \+ script notes. |  |  |
 | Final integration \+ submission |  | Team | All deliverables finalized; tags release; submission package ready. |  |  |
@@ -45,8 +45,8 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
 | 2 | Draft scope document in /docs | Danielle | November 8th | IP |  |  |
 | 3 | Draft UML diagram in /docs |  | November 8th | IP |  |  |
-| 4 | Implement core data structures and parsing | Danielle |  |  |  |  |
-| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | NS |  |  |
+| 4 | Implement core data structures and parsing | Danielle | November 8th | IP |  |  |
+| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | IP |  |  |
 | 6 | Implement edge-case tests \+ expected outputs | Adam |  | NS |  |  |
 | 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th  |  | Checkpoint Submission |  |
 | 8 | Report draft (problem/design/verification/results) | Mustafa |  |  |  |  |

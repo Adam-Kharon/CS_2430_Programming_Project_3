@@ -15,8 +15,8 @@
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
 | 2 | Draft scope document in /docs | Danielle | November 8th | IP |  |  |
 | 3 | Draft UML diagram in /docs |  | November 8th | IP |  |  |
-| 4 | Implement core data structures and parsing | Danielle | November 8th |  |  |  |
-| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th | NS |  |  |
+| 4 | Implement core data structures and parsing | Danielle | November 8th | IP |  |  |
+| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th | IP |  |  |
 
 ## 3\) Contributions Post Change Request
 

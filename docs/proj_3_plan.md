@@ -32,24 +32,24 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 
 | Milestone | Target Date | Owner | Definition of Done | Status (NS/IP/D) | Evidence Link / Pointer |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Skeleton running |  | Danielle | sample I/O runs. | IP |   |
-| Core implementation complete |  | Danielle | All required features implemented; compiles/runs end-to-end. | IP |  |
+| Skeleton running | November 8th | Danielle | sample I/O runs. | D | Commit db8586b |
+| Core implementation complete | November 15th | Danielle | All required features implemented; compiles/runs end-to-end. | IP |  |
 | Verification complete | November 13th | Adam | Test suite covers edge cases; expected vs actual documented. | NS |  |
-| Report/video draft complete |  | Mustafa | Draft report sections complete; video outline \+ script notes. |  |  |
-| Final integration \+ submission |  | Team | All deliverables finalized; tags release; submission package ready. |  |  |
+| Report/video draft complete | November 15th | Mustafa | Draft report sections complete; video outline \+ script notes. |  |  |
+| Final integration \+ submission | November 15th | Team | All deliverables finalized; tags release; submission package ready. |  | Final Submission |
 
 ## 5\) Task Backlog (Assignments \+ Status)
 
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | ----- | :---: | :---: | ----- |
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
-| 2 | Draft scope document in /docs | Danielle | November 8th | IP |  |  |
-| 3 | Draft UML diagram in /docs |  | November 8th | IP |  |  |
+| 2 | Draft scope document in /docs | Danielle | November 8th | D | Commit 4b16137 | - |
+| 3 | Draft UML diagram in /docs | Team | November 8th | D |  | - |
 | 4 | Implement core data structures and parsing | Danielle | November 8th | IP |  |  |
-| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | IP |  |  |
-| 6 | Implement edge-case tests \+ expected outputs | Adam |  | NS |  |  |
-| 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th  |  | Checkpoint Submission |  |
-| 8 | Report draft (problem/design/verification/results) | Mustafa |  |  |  |  |
+| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | D |  |  |
+| 6 | Implement edge-case tests \+ expected outputs | Adam | November 13th | NS |  |  |
+| 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
+| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP |  |  |
 | 9 | Final polish: run instructions \+ release tag | Team | November 15th | NS | Final Submission | Before Submission |
 
 ## 6\) Verification Plan

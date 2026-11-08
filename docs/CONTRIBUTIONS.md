@@ -13,17 +13,17 @@
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
-| 2 | Draft scope document in /docs | Danielle | November 8th | IP |  |  |
-| 3 | Draft UML diagram in /docs |  | November 8th | IP |  |  |
-| 4 | Implement core data structures and parsing | Danielle | November 8th | IP |  |  |
-| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th | IP |  |  |
+| 2 | Draft scope document in /docs | Danielle | November 8th | D | Commit 4b16137 | - |
+| 3 | Draft UML diagram in /docs | Team | November 8th | D |  | - |
+| 4 | Define verification plan (tests \+ edge cases) | Adam | November 8th | D |  | - |
 
 ## 3\) Contributions Post Change Request
 
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
-| 6 | Implement edge-case tests \+ expected outputs | Adam |  | NS |  |  |
-| 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th  |  | Checkpoint Submission |  |
-| 8 | Report draft (problem/design/verification/results) | Mustafa |  |  |  |  |
+| 5 | Implement core data structures and parsing | Danielle | November 15th | IP |  |  |
+| 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | NS |  |  |
+| 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
+| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP |  |  |
 | 9 | Final polish: run instructions \+ release tag | Team | November 15th | NS | Final Submission | Before Submission |
 

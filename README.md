@@ -38,10 +38,16 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 ### docs/UML.md
   - Displays the principle and testing classes along with their relationship.
 
+### docs/UML_DIAGRAM.png
+  - Displays the principle class.
+
+### docs/DESIGN_NOTES.md
+  - Walks through and breaks down the internal logic of the principle class.
+
 ### docs/proj_3_plan.md
   - Records roles, tasks, deadlines, and progress.
 
-### docs/proj_3_scope.md
+### docs/Scope.md
   - Documents project requirements
 
 ### docs/verification_plan.md

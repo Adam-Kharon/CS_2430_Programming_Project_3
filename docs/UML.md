@@ -3,24 +3,24 @@ classDiagram
     direction LR
 
     class Main {
-        +CAPACITY : int = 700 $
-        +N : int = 12 $
-        +"names String  [12] {12 experiments}" $
-        +"weights : int [12] {12 experiments}" $
-        +"ratings : int [12] {12 experiments}" $
+        +CAPACITY : int = 700$
+        +N : int = 12$
+        +names : String[12]$
+        +weights : int[12]$
+        +ratings : int[12]$
 
-        +greedyHighestRating() Result $
-        +greedyLightestFirst() Result $
-        +greedyBestRatio() Result $
-        +bruteForce() List~Result~ $
-        +dynamicProgramming() Result $
-        +printResult(String, Result) void $
-        +printBruteForceResults(List~Result~) void $
-        +main(String[] args) void $
+        +greedyHighestRating() Result$
+        +greedyLightestFirst() Result$
+        +greedyBestRatio() Result$
+        +bruteForce() List~Result~$
+        +dynamicProgramming() Result$
+        +printResult(String, Result) void$
+        +printBruteForceResults(List~Result~) void$
+        +main(String[]) void$
     }
 
     class Result {
-        +"chosen : int []"
+        +chosen : int[]
         +count : int
         +totalWeight : int
         +totalRating : int

@@ -5,9 +5,9 @@ classDiagram
     class Main {
         +CAPACITY : int = 700 $
         +N : int = 12 $
-        +names String  [12] {12 experiments} $
-        +weights : int [12] {12 experiments} $
-        +ratings : int [12] {12 experiments} $
+        +"names String  [12] {12 experiments}" $
+        +"weights : int [12] {12 experiments}" $
+        +"ratings : int [12] {12 experiments}" $
 
         +greedyHighestRating() Result $
         +greedyLightestFirst() Result $
@@ -20,7 +20,7 @@ classDiagram
     }
 
     class Result {
-        +chosen : int []
+        +"chosen : int []"
         +count : int
         +totalWeight : int
         +totalRating : int

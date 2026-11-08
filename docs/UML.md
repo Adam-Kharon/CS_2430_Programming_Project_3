@@ -30,6 +30,6 @@ classDiagram
         
     }
 
-    Main +-- Result
+    Main *-- Result
     MainTest ..> Main : tests
 ```

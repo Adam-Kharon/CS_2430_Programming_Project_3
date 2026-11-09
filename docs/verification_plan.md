@@ -2,11 +2,33 @@
 
 ## **1\. Verification Plan**
 
+### Outlined Plan
+
+* Correctness checks/tests to run
+  * Unit tests for core functions.  
+  * Golden-file tests: compare outputs to expected results on provided sample inputs.  
+  * Negative tests: invalid inputs produce clear error messages.
+
+* Edge cases to verify
+  * Empty/near-empty input (minimum size).  
+  * Maximum size input within assignment constraints.  
+  * Duplicate or conflicting entries (as applicable to the project spec).
+
+* Expected vs. actual outputs (where applicable)
+  * Document expected outputs for at least 3 representative test cases in docs/test-results.md.  
+  * Include screenshots or terminal output snippets if tooling is minimal.
+
+* Performance checks (if required by the project)
+  * Run on increasing input sizes and record runtime (basic timing).  
+  * Confirm no unnecessary O(n^2) loops on hot paths where avoidable.
+
+### Conceptualization
+
 JUnit 5 tests were used to verify the correctness of MainSkeleton.java.
 
 * Algorithm Correctness: Verifies that each strategy satisfies capacity constraint and produces expected ratings for dataset.
 * Edge Cases: Evaluates conditions such as zero capacity, a single items exceeding capacity, and a single item matching capacity.
-* Tie Breaking: Ensures deterministic behavior when handling items with equivalent values. 
+* Tie Breaking: Ensures deterministic behavior when handling items with equivalent values.
 
 ## **2\. Tests**
 

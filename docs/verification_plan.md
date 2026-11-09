@@ -4,13 +4,11 @@
 
 JUnit 5 tests were used to verify the correctness of MainSkeleton.java.
 
-### Tests Covered
-
 * Algorithm Correctness: Verifies that each strategy satisfies capacity constraint and produces expected ratings for dataset.
 * Edge Cases: Evaluates conditions such as zero capacity, a single items exceeding capacity, and a single item matching capacity.
 * Tie Breaking: Ensures deterministic behavior when handling items with equivalent values. 
 
-## **2\. Edge Case Tests**
+## **2\. Tests**
 
 | Test Case | Input/Condition | Expected Result |
 | ----- | ----- | ----- |

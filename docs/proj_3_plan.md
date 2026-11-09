@@ -34,7 +34,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Skeleton running | November 8th | Danielle | sample I/O runs. | D | Commit db8586b |
 | Core implementation complete | November 15th | Danielle | All required features implemented; compiles/runs end-to-end. | IP |  |
-| Verification complete | November 13th | Adam | Test suite covers edge cases; expected vs actual documented. | NS |  |
+| Verification complete | November 13th | Adam | Test suite covers edge cases; expected vs actual documented. | IP |  |
 | Report/video draft complete | November 15th | Mustafa | Draft report sections complete; video outline \+ script notes. |  |  |
 | Final integration \+ submission | November 15th | Team | All deliverables finalized; tags release; submission package ready. |  | Final Submission |
 
@@ -44,39 +44,15 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | :---: | ----- | :---: | ----- | :---: | :---: | ----- |
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
 | 2 | Draft scope document in /docs | Danielle | November 8th | D | Commit 4b16137 | - |
-| 3 | Draft UML diagram in /docs | Team | November 8th | D |  | - |
-| 4 | Implement core data structures and parsing | Danielle | November 8th | IP |  |  |
-| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | D |  |  |
-| 6 | Implement edge-case tests \+ expected outputs | Adam | November 13th | NS |  |  |
+| 3 | Draft UML diagram in /docs | Team | November 8th | D | Commit 171b213 | - |
+| 4 | Implement core data structures and parsing | Danielle | November 15th | IP |  |  |
+| 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | D | Commit 806caaf | - |
+| 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | IP |  |  |
 | 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
 | 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP |  |  |
 | 9 | Final polish: run instructions \+ release tag | Team | November 15th | NS | Final Submission | Before Submission |
 
-## 6\) Verification Plan
-
-* Correctness checks/tests to run
-
-* Unit tests for core functions.  
-* Golden-file tests: compare outputs to expected results on provided sample inputs.  
-* Negative tests: invalid inputs produce clear error messages.
-
-* Edge cases to verify
-
-* Empty/near-empty input (minimum size).  
-* Maximum size input within assignment constraints.  
-* Duplicate or conflicting entries (as applicable to the project spec).
-
-* Expected vs. actual outputs (where applicable)
-
-* Document expected outputs for at least 3 representative test cases in docs/test-results.md.  
-* Include screenshots or terminal output snippets if tooling is minimal.
-
-* Performance checks (if required by the project)
-
-* Run on increasing input sizes and record runtime (basic timing).  
-* Confirm no unnecessary O(n^2) loops on hot paths where avoidable.
-
-## 7\) Risks / Blockers
+## 6\) Risks / Blockers
 
 | Risk / Blocker | Impact | Mitigation Plan | Owner | Status |
 | :---- | :---- | :---- | :---- | :---- |

@@ -22,7 +22,7 @@
 | ID | Task | Owner | Target/Due Date | Status (NS/IP/D) | Evidence Link / Pointer | Notes / Dependencies |
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
 | 5 | Implement core data structures and parsing | Danielle | November 15th | IP |  |  |
-| 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | NS |  |  |
+| 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | IP |  |  |
 | 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
 | 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP |  |  |
 | 9 | Final polish: run instructions \+ release tag | Team | November 15th | NS | Final Submission | Before Submission |

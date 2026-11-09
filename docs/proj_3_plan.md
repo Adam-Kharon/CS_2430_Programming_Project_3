@@ -34,7 +34,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Skeleton running | November 8th | Danielle | sample I/O runs. | D | Commit db8586b |
 | Core implementation complete | November 15th | Danielle | All required features implemented; compiles/runs end-to-end. | IP |  |
-| Verification complete | November 13th | Adam | Test suite covers edge cases; expected vs actual documented. | IP |  |
+| Verification complete | November 15th | Adam | Test suite covers edge cases; expected vs actual documented. | IP |  |
 | Report/video draft complete | November 15th | Mustafa | Draft report sections complete; video outline \+ script notes. |  |  |
 | Final integration \+ submission | November 15th | Team | All deliverables finalized; tags release; submission package ready. |  | Final Submission |
 

@@ -1,3 +1,4 @@
+package project3;
 import java.util.*;
 
 /**
@@ -11,6 +12,12 @@ import java.util.*;
  * - Part 2: Brute force exhaustive search (2^12 = 4096 subsets)
  * - Part 3: Comparison and output formatting
  * - Part 4: Dynamic programming (extra credit with pseudocode minimum)
+ * 
+ * @Team_Name Team-2
+ * @Team_Members Adam-Sarraj, Danielle-Major, Mustafa-Alrubaye
+ * @Course_And_Section CS 2430 / 001
+ * @Project_Name Programming Project 3, Optimal selection - Fall 2026
+ * @author Danielle-Major
  */
 public class MainSkeleton {
     /** Maximum satellite payload capacity in kilograms. */
@@ -233,3 +240,4 @@ public class MainSkeleton {
     public static void main(String[] args) {
         // TODO: run each strategy and print results
     }
+}

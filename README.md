@@ -29,7 +29,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 
 # Project Structure:
 
-### src/Main.java
+### src/MainSkeleton.java
   - INSERT_SHORT_PROGRAM_DESCRIPTION_HERE
 
 ### test/MainTest.java

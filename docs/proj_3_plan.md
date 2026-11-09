@@ -19,7 +19,7 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | :---- | :---- | :---- | :---- |
 | Danielle Major | Implementation Lead | Owns core algorithm implementation; integrates modules; maintains main branch health. | Monday - Thursday after 3pm, Friday/Saturday/Sunday most of the day|
 | Adam Sarraj  | Verification Lead | Creates test plan; edge cases; validates outputs; documents verification evidence. | Monday \- Thursday: After 2 pm <br> Friday \- Saturday: Before 6pm |
-| Mustafa Alrubaye | Communications Lead | Assembles report/video; ensures run instructions; tracks deliverables; merges documentation. |  |
+| Mustafa Alrubaye | Communications Lead | Assembles report/video; ensures run instructions; tracks deliverables; merges documentation. | Monday 5:30 - 11 <br> Tuesday 2:30 - 5 and 7:30 - 11 <br> Wendsday 5:30 - 5 and 10-11 <br> Thursday 2:30 - 5 and 7:30 - 11 <br> Friday 5:30 - 11 <br> Saturday and Sunday 5:30 - 11 |
 
 ## 3\) Repository & Access
 

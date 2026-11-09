@@ -27,7 +27,16 @@ classDiagram
     }
 
     class MainTest {
-        
+        +testHighestRatingFirst() void
+        +testLightestFirst() void
+        +testBestRatioFirst() void
+        +testBruteForce() void
+        +testDynamicProgramming() void
+        +testZeroCapacity() void
+        +testItemExceedsCapacity() void
+        +testItemEqualsCapacity() void
+        +testIdenticalRating() void
+        +testIdenticalRatio() void
     }
 
     Main *-- Result

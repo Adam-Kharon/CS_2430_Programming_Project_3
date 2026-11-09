@@ -14,8 +14,8 @@
 | :---: | ----- | :---: | :---: | :---: | :---: | ----- |
 | 1 | Create repository \+ baseline README/run steps | Adam | - | D | Commit fcb735e | - |
 | 2 | Draft scope document in /docs | Danielle | November 8th | D | Commit 4b16137 | - |
-| 3 | Draft UML diagram in /docs | Team | November 8th | D |  | - |
-| 4 | Define verification plan (tests \+ edge cases) | Adam | November 8th | D |  | - |
+| 3 | Draft UML diagram in /docs | Team | November 8th | D | Commit 171b213 | - |
+| 4 | Define verification plan (tests \+ edge cases) | Adam | November 8th | D | Commit 806caaf | - |
 
 ## 3\) Contributions Post Change Request
 

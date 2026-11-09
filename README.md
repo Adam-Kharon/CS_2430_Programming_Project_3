@@ -25,12 +25,14 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 
 4. **Navigate to the project3 folder**
 
-5. **Run Main.java and view the console**
+5. **Run MainSkeleton.java and view the console**
 
 # Project Structure:
 
 ### src/MainSkeleton.java
-  - INSERT_SHORT_PROGRAM_DESCRIPTION_HERE
+  - Contains the experiment data and the methods for testing the 3 selections.
+  - The 3 strategies are brute-force, greedy, and dynamic.
+  - These are programming strategies that take different approaches and print the results to the console.
 
 ### test/MainTest.java
   - JUnit tests for the Main class.

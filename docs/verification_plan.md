@@ -34,16 +34,20 @@ JUnit 5 tests were used to verify the correctness of MainSkeleton.java.
 
 | Test Case | Input/Condition | Expected Result |
 | ----- | ----- | ----- |
-| Highest Rating First | N = 12, CAPACITY = 700 | Selected: Solar Flares, Micrometeorites, Binary Stars, Cloud Patterns, Seed Viability <br> Total Weight: 680 <br> Total Rating: 35 |
-| Lightest First | N = 12, CAPACITY = 700 | Selected: Seed Viability, Yeast Fermentation, Cloud Patterns, Mice Tumors, Microgravity Plant Growth, Cosmic Rays, Sun Spots, Relativity, Micrometeorites <br> Total Weight: 654 <br> Total Rating: 52 |
-| Best Ratio First | N = 12, CAPACITY = 700 | Selected: Seed Viability, Yeast Fermentation, Cloud Patterns, Mice Tumors, Cosmic Rays, Relativity, Microgravity Plant Growth, Micrometeorites, Sun Spots <br> Total Weight: 654 <br> Total Rating: 52 |
-| Brute Force | N = 12, CAPACITY = 700 | Optimal Subset: Cloud Patterns, Binary Stars, Relativity, Seed Viability, Mice Tumors, Micrometeorites, Cosmic Rays, Yeast Fermentation <br> Total Weight: 692 <br> Total Rating: 53 |
-| Dynamic Programming | N = 12, CAPACITY = 700 | Optimal Subset: Cloud Patterns, Binary Stars, Relativity, Seed Viability, Mice Tumors, Micrometeorites, Cosmic Rays, Yeast Fermentation <br> Total Weight: 692 <br> Total Rating: 53 |
-| Zero Capcity | CAPACITY = 0 | count = 0, totalWeight = 0, totalRating = 0, empty array |
-| Item Exceeds Capacity | Item Weight > CAPACITY | Item is skipped and valid result is returned |
-| Item Equals Capacity | Item Weight = CAPACITY | Single item is selected and returned |
-| Identical Rating | More than one item with identical rating | Deterministic item selection without OutOfBoundsException |
-| Identical Ratio | More than one item with identical ratio | Deterministic item selection without OutOfBoundsException |
+| Highest Rating First | N = 13, CAPACITY = 700 | Selected: 2, 5, 6, 8, 10, 11, 11a <br> Baseline / Adjusted Weight: 700kg / 700kg <br> Total Rating: 50 |
+| Lightest First | N = 13, CAPACITY = 700 | Selected: 1, 5, 6, 7, 8, 9, 10, 11, 11a, 12 <br> Baseline / Adjusted Weight: 664kg / 657kg (7kg credit) <br> Total Rating: 57 |
+| Best Ratio First | N = 13, CAPACITY = 700 | Selected: 1, 5, 6, 7, 8, 9, 10, 11, 11a, 12 <br> Baseline / Adjusted Weight: 664kg / 657kg (7kg credit) <br> Total Rating: 57 |
+| Brute Force | N = 13, CAPACITY = 700 | Optimal Subset: 1, 4, 5, 6, 8, 10, 11, 11a, 12 <br> Baseline / Adjusted Weight: 702kg / 695kg (7kg credit) <br> Total Rating: 58 |
+| Dynamic Programming | N = 13, CAPACITY = 700 | Optimal Subset: 1, 4, 5, 6, 8, 10, 11, 11a, 12 <br> Baseline / Adjusted Weight: 702kg / 695kg (7kg credit) <br> Total Rating: 58 |
+| Empty Selection | mask = 0 | baslineWeight = 0, totalWeight = 0, totalRating = 0, feasible = true, empty ID String |
+| Payload Exceeds Capacity | mask = {2, 3, 4, 10} (825kg > 700kg) | feasible = false |
+| Payload Equals Capacity | mask = {2, 5, 6, 8, 10, 11, 11a} (700kg) | totalWeight = 700, feasible = true |
+| Identical Rating | Tied rating 9 <br> (ID 2: 264kg vs ID 10: 170kg) | Lighter baseline mass (ID 10) deterministically prioritized |
+| Identical Ratio | Tied ratio comparator | Deterministic selection via lighter mass than array index order |
+| Solar Instrument Limit | {2, 3} vs {2, 3, 7} (542 kg) | {2, 3} accepted (feasible = true) <br> {2, 3, 7} rejected (feasible = false) |
+| Thermal Mass Credit | {1, 2, 4, 6, 10, 12} | baselineWeight = 707kg, totalWeight = 700kg, feasible = true |
+| Exp. 11a Prerequisite | {11a} vs {11, 11a} | {11a} rejected (feasible = false) <br> {11, 11a} accepted (feasible = true) |
+| Greedy Deferred 11a | greedyLightestFirst() encounters 11a before 11 | 11a temporarily skipped and added after 11 is selected |
 
 ## **3\. Test Results**
 

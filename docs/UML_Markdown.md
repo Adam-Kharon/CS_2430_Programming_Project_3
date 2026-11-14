@@ -41,7 +41,6 @@ classDiagram
         +testThermalMassCredit() void
         +testExperiment11aPrerequisite() void
         +testGreedyDeferred11a() void
-        +testInvalidMaskThrowsException() void
     }
 
     Main *-- Result

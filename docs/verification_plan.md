@@ -51,4 +51,8 @@ JUnit 5 tests were used to verify the correctness of MainSkeleton.java.
 
 ## **3\. Test Results**
 
-TODO
+* **Testing framework:** JUnit 5  
+* **Total tests run:** 14  
+* **Tests passed:** 14  
+* **Errors:** 0  
+* **Failures:** 0  

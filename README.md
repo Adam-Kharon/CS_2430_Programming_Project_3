@@ -29,7 +29,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 
 # Project Structure:
 
-### src/MainSkeleton.java
+### src/Main.java
   - Contains the experiment data and the methods for testing the 3 selections.
   - The 3 strategies are brute-force, greedy, and dynamic.
   - These are programming strategies that take different approaches and print the results to the console.

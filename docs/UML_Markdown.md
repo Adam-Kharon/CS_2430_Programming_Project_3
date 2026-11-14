@@ -32,11 +32,16 @@ classDiagram
         +testBestRatioFirst() void
         +testBruteForce() void
         +testDynamicProgramming() void
-        +testZeroCapacity() void
-        +testItemExceedsCapacity() void
-        +testItemEqualsCapacity() void
+        +testEmptySelection() void
+        +testPayloadExceedsCapacity() void
+        +testPayloadEqualsCapacity() void
         +testIdenticalRating() void
         +testIdenticalRatio() void
+        +testSolarInstrumentLimit() void
+        +testThermalMassCredit() void
+        +testExperiment11aPrerequisite() void
+        +testGreedyDeferred11a() void
+        +testInvalidMaskThrowsException() void
     }
 
     Main *-- Result

@@ -29,7 +29,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 
 # Project Structure:
 
-### src/Main.java
+### src/MainSkeleton.java
   - Contains the experiment data and the methods for testing the 3 selections.
   - The 3 strategies are brute-force, greedy, and dynamic.
   - These are programming strategies that take different approaches and print the results to the console.
@@ -37,7 +37,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
 ### test/MainTest.java
   - JUnit tests for the Main class.
 
-### docs/UML.md
+### docs/UML_Markdown.md
   - Displays the principle and testing classes along with their relationship.
 
 ### docs/UML_DIAGRAM.png
@@ -56,4 +56,7 @@ This project evaluates strategies for a value-to-weight optimization problem by 
   - Contains verification plan and results of the tests
 
 ### docs/CONTRIBUTIONS.md
+  - Confirms roles and contributions
+
+### docs/Change_Order.md
   - Confirms roles and contributions

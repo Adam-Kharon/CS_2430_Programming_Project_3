@@ -35,8 +35,8 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | Skeleton running | November 8th | Danielle | sample I/O runs. | D | Commit db8586b |
 | Core implementation complete | November 15th | Danielle | All required features implemented; compiles/runs end-to-end. | D | Commit b0d7228 |
 | Verification complete | November 15th | Adam | Test suite covers edge cases; expected vs actual documented. | D | Commit 9805939 |
-| Report/video draft complete | November 15th | Mustafa | Draft report sections complete; video outline \+ script notes. | IP | Final Submission |
-| Final integration \+ submission | November 15th | Team | All deliverables finalized; tags release; submission package ready. | IP | Final Submission |
+| Report/video draft complete | November 15th | Mustafa | Draft report sections complete; video outline \+ script notes. | D | Final Submission |
+| Final integration \+ submission | November 15th | Team | All deliverables finalized; tags release; submission package ready. | D | Final Submission |
 
 ## 5\) Task Backlog (Assignments \+ Status)
 
@@ -49,8 +49,8 @@ Reminder\* Update at least twice per project; for each “Done” task, include 
 | 5 | Define verification plan (tests \+ edge cases) | Adam | November 8th  | D | Commit 806caaf | - |
 | 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | D | Commit 9805939 | - |
 | 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
-| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP | Final Submission | - |
-| 9 | Final polish: run instructions \+ release tag | Team | November 15th | IP | Final Submission | Before Submission |
+| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | D | Final Submission | - |
+| 9 | Final polish: run instructions \+ release tag | Team | November 15th | D | Final Submission | Before Submission |
 
 ## 6\) Risks / Blockers
 

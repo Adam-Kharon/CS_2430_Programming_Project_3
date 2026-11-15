@@ -24,6 +24,6 @@
 | 5 | Implement core data structures and parsing | Danielle | November 15th | D | Commit b0d7228 | - |
 | 6 | Implement edge-case tests \+ expected outputs | Adam | November 15th | D | Commit 9805939 | - |
 | 7 | Checkpoint package: update plan \+ docs \+ invite verification | Team | November 8th | D | Checkpoint Submission | - |
-| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | IP | Final Submission | - |
-| 9 | Final polish: run instructions \+ release tag | Team | November 15th | IP | Final Submission | Before Submission |
+| 8 | Report draft (problem/design/verification/results) | Mustafa | November 15th | D | Final Submission | - |
+| 9 | Final polish: run instructions \+ release tag | Team | November 15th | D | Final Submission | Before Submission |
 
